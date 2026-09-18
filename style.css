@@ -9,14 +9,13 @@ body {
     "Web64 AT01";
     font-size: 24px;
     margin: 0;
-    border: 4px solid #ffffff;
 }
 
 .page-shell {
     max-height: 460px;
     max-width: 560px;
     margin: 0 auto;
-    padding: 8px;
+    padding: 0px;
     background-color: #5e32a8;
     border: 4px solid #ffffff;
 }
@@ -31,7 +30,8 @@ h1 {
     "Web64 AT01";
     font-size: 40px;
     text-align: center;
-    border: 4px solid #ffffff;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
 }
 
 a {
@@ -48,5 +48,6 @@ p {
     font-size: 24px;
     font-family:
     "Web64 Enter Command";
+    padding: 8px;
 
 }
