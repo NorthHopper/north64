@@ -1,0 +1,28 @@
+body {
+    background: #178edb;
+    color: #1d2633;
+    font-family:
+    "Web64 Roundabout",
+    "Web64 Droid Sans",
+    "Web64 AT01";
+    font-size: 16px;
+    margin: 0;
+}
+
+.page-shell {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: #f7f0d5;
+    border: 3px solid #8e6425;
+}
+
+h1 {
+    color: #1c64c7;
+    font-size: 32px;
+}
+
+a {
+    color: #863bd0;
+    cursor: pointer;
+}
