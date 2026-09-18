@@ -21,13 +21,13 @@ body {
 }
 
 h1 {
-    background-color: #5e32a8; /* Match page shell background to mask the inner area */
+    background-color: #5e32a8; /* Keeps masking the container */
     color: #ffffff;
     font-family: "Web64 Enter Command", "Web64 Roundabout", "Web64 Droid Sans", "Web64 Silver", "Web64 AT01";
     font-size: 40px;
     text-align: center;
-    margin: 0;                /* Keep it flush */
-    padding: 10px 0;          /* Inside text padding */
+    margin: 0; /* CRITICAL: Prevents default margins from exposing top white space */
+    padding: 14px 0 10px 0; /* OPTIONAL: Extra top padding to visually balance the text */
 }
 
 .header-row {
