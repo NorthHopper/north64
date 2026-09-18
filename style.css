@@ -21,24 +21,18 @@ body {
 }
 
 h1 {
+    background-color: #5e32a8; /* Match page shell background to mask the inner area */
     color: #ffffff;
-    font-family:
-    "Web64 Enter Command",
-    "Web64 Roundabout",
-    "Web64 Droid Sans",
-    "Web64 Silver",
-    "Web64 AT01";
+    font-family: "Web64 Enter Command", "Web64 Roundabout", "Web64 Droid Sans", "Web64 Silver", "Web64 AT01";
     font-size: 40px;
     text-align: center;
+    margin: 0;                /* Keep it flush */
+    padding: 10px 0;          /* Inside text padding */
 }
 
-/* Style the HR to act as your solid top/bottom lines */
-hr.header-line {
-    border: none;               /* Reset any default browser 3D shading */
-    background-color: #ffffff;  /* Fill color */
-    color: #ffffff;             /* Fallback for older browsers */
-    height: 4px;                /* Match your 4px border thickness */
-    margin: 0;                  /* Flush against the container edges */
+.header-row {
+    background-color: #ffffff; /* This creates the white line background */
+    padding: 4px 0;           /* 4px top and bottom thickness */
 }
 
 a {
