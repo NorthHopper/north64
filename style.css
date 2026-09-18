@@ -30,8 +30,15 @@ h1 {
     "Web64 AT01";
     font-size: 40px;
     text-align: center;
-    border-top: 4px solid #ffffff;
-    border-bottom: 4px solid #ffffff;
+}
+
+/* Style the HR to act as your solid top/bottom lines */
+hr.header-line {
+    border: none;               /* Reset any default browser 3D shading */
+    background-color: #ffffff;  /* Fill color */
+    color: #ffffff;             /* Fallback for older browsers */
+    height: 4px;                /* Match your 4px border thickness */
+    margin: 0;                  /* Flush against the container edges */
 }
 
 a {
