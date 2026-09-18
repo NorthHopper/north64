@@ -35,6 +35,12 @@ h1 {
     padding: 4px 0;           /* 4px top and bottom thickness */
 }
 
+.header-row-bottom-outline {
+    background-color: #ffffff; /* This creates the white line background */
+    padding: 0 0 4px 0;       /* Top: 0px, Right: 0px, Bottom: 4px, Left: 0px */
+}
+
+
 a {
     color: #000000;
     cursor: pointer;
