@@ -1,13 +1,13 @@
 body {
     background: #178edb;
-    color: #1d2633;
+    color: #000000;
     font-family:
     "Web64 Roundabout",
     "Web64 Droid Sans",
     "Web64 Enter Command",
     "Web64 Silver",
     "Web64 AT01";
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    color: #1c64c7;
+    color: #ffffff;
     font-family:
     "Web64 Enter Command",
     "Web64 Roundabout",
@@ -33,16 +33,16 @@ h1 {
 }
 
 a {
-    color: #863bd0;
+    color: #000000;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     font-family:
     "Web64 Enter Command";
 }
 
 p {
 
-    font-size: 18px;
+    font-size: 16px;
     font-family:
     "Web64 Enter Command";
 
